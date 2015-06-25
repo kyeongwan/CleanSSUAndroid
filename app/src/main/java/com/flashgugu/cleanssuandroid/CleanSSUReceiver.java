@@ -5,6 +5,7 @@ import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
 import android.telephony.SmsMessage;
+import android.util.Log;
 import android.widget.Toast;
 
 public class CleanSSUReceiver extends BroadcastReceiver {
@@ -38,9 +39,10 @@ public class CleanSSUReceiver extends BroadcastReceiver {
             }
 
             Toast.makeText(context, sb, Toast.LENGTH_LONG).show();
+            Log.e(sb,"Msg");
 
         }
 
-        throw new UnsupportedOperationException("Not yet implemented");
+        //throw new UnsupportedOperationException("Not yet implemented");
     }
 }
