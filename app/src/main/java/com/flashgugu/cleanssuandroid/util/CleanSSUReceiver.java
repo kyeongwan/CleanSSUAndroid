@@ -1,4 +1,4 @@
-package com.flashgugu.cleanssuandroid;
+package com.flashgugu.cleanssuandroid.util;
 
 import android.content.BroadcastReceiver;
 import android.content.Context;
@@ -39,7 +39,7 @@ public class CleanSSUReceiver extends BroadcastReceiver {
             }
 
             Toast.makeText(context, sb, Toast.LENGTH_LONG).show();
-            Log.e(sb,"Msg");
+            Log.e(sb, "Msg");
 
         }
 
